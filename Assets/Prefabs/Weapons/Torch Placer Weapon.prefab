@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1487776001451249106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2431597067940521440}
+  - component: {fileID: 6216914647902558504}
+  m_Layer: 0
+  m_Name: Torch Placer Weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2431597067940521440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487776001451249106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.531624, y: 38.54907, z: 38.891705}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6216914647902558504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487776001451249106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604af331d262da74f9e987db4cf82645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstPersonViewItem: {fileID: 0}
+  referenceOfTorch: {fileID: 8775132649288676380, guid: dda681112de9adc4aa6ecad1796dbe68, type: 3}
+  poolSize: 20
+  shootingDistance: 30
+  showWhenPlayerIsProtected: {fileID: 0}
+  placeTorch: {fileID: 8300000, guid: 8bc3e811e5b6b084cbd0652ea14c1d07, type: 3}
+  breakTorch: {fileID: 8300000, guid: b1a318dc2d9056644b95bf047b50b2a0, type: 3}
